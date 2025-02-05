@@ -1,2 +1,2 @@
 # BASIC-CALULATOR
-A basic calculator using HTML, CSS, and JavaScript allows users to perform arithmetic operations like addition, subtraction, multiplication, and division. 
+A basic calculator using HTML, CSS, and JavaScript allows users to perform arithmetic operations like addition, subtraction, multiplication, and division. The HTML structure includes buttons for digits (0-9) and operators (+, -, *, /, =, C). CSS is used for styling to enhance the layout and responsiveness. JavaScript handles user input, updates the display, and performs calculations when operators are clicked. The "=" button evaluates the expression, while "C" clears the input field for new calculations. 
