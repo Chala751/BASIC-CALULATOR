@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(119, 114, 114);
+}
+.header-content h1{
+    margin-top: 40px;
+    font-size: 9vw;
+    line-height: 3vw;
+    text-align: center;
+}
+.header-content h1 span{
+    background: linear-gradient(#222121cb,#282626cb);
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 0%;
+}
+.header-content h1 span{
+    animation: textcolor1 2s linear infinite alternate ;
+}
+@keyframes textcolor1 {
+    0%{
+      background-size: 0%;
+    }
+    40%{
+      background-size: 100%;
+    }
+    100%{
+      background-size:100%;
+    }
+}
+.calculator{
+    background-color: #2e2c2ccb;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 60px;
+}
+#result{
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.3)inset;
+    border-radius: 10px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+button{
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.3);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #ddd;
+}
+.clear{
+    background-color: #ff4136;
+    color: #fff;
+}
+.number, .decimal{
+    background-color: #fff;
+    color: #333;
+}
+.operator{
+    background-color: #fff;
+    color:rgb(38, 0, 255);
+    font-size: xx-large;
+}
+.equals{
+    background-color: rgb(100, 203, 93);
+    grid-row: span 3;
+    color: #fff;
+}
+.back{
+    background-color: rgb(46, 89, 219);
+    color: rgb(239, 74, 74);
+}
